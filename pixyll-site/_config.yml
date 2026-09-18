@@ -1,0 +1,39 @@
+# Site settings
+title: My New Site
+description: >
+  A short description of your site. Pixyll is a simple, clean,
+  minimalist theme for Jekyll.
+baseurl: "" # subpath, e.g. "/blog" — leave empty for a user/org site,
+            # or set to "/REPO-NAME" for a project site
+url: ""     # your full site URL, e.g. "https://username.github.io"
+
+# Author
+author:
+  name: Xaviar Roach
+  email: xaviar.roach1@gmail.com
+  url: https://github.com/spaghettipriest
+
+# Theme (GitHub Pages supports Pixyll via the remote_theme plugin)
+remote_theme: johnotander/pixyll
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Pagination
+paginate: 5
+paginate_path: "blog/page:num/"
+
+# Permalinks
+permalink: /:title/
+
+# Social links shown in the footer (delete any you don't want)
+github_username:  yourusername
+twitter_username: yourusername
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
