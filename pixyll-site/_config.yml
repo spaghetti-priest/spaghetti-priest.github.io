@@ -11,7 +11,7 @@ url: ""     # your full site URL, e.g. "https://username.github.io"
 author:
   name: Xaviar Roach
   email: xaviar.roach1@gmail.com
-  url: https://github.com/spaghettipriest
+  url: https://github.com/spaghetti-priest
 
 # Theme (GitHub Pages supports Pixyll via the remote_theme plugin)
 remote_theme: johnotander/pixyll
