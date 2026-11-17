@@ -2,8 +2,11 @@
 layout: page
 title: About
 permalink: /about/
+tags: about
 ---
 
-Write a little bit about yourself, your project, or your site here.
-This page uses Pixyll's `page` layout, which is a clean single-column
-layout without a post date or byline.
+Hi, I'm Your Name. This is where I keep notes on what I'm working on.
+
+Write a few sentences here about who you are, what you do, and how people can reach you.
+
+You can also [say hello]({{ site.baseurl }}/contact/).
